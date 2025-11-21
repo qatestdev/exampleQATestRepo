@@ -25,6 +25,15 @@ class TicTacToe {
         }
     }
 
+    unusedMethod2(position) {
+        if(position === null) {
+            return false;
+        }
+        if(position === null) {
+            return false;
+        }
+    }
+
     makeMove(position) {
         if (this.winner || this.board[position] !== null) {
             return false;
