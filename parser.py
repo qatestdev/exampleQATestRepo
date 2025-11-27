@@ -170,6 +170,7 @@ def on_file_select_duplicated():
     except Exception:
         messagebox.showerror("Error", "Invalid file or format.")
 
+
 root = tk.Tk()
 root.title("File Parser")
 root.geometry("300x100")
